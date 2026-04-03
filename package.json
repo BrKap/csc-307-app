@@ -4,11 +4,8 @@
   "description": "csc 307 app project",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run dev --prefix packages/react-frontend",
-    "build": "npm run build --prefix packages/react-frontend",
-    "lint": "npm run lint --prefix packages/react-frontend",
-    "preview": "npm run preview --prefix packages/react-frontend"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "workspaces": ["./packages/*"]
 }
