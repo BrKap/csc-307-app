@@ -4,6 +4,8 @@
   "description": "csc 307 app project",
   "main": "index.js",
   "scripts": {
+    "dev:backend": "npm run dev --workspace=express-backend",
+    "dev:frontend": "npm run dev --workspace=react-frontend"
   },
   "author": "",
   "license": "ISC",
