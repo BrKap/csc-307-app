@@ -1,0 +1,19 @@
+{
+  "name": "jest-unit-testing",
+  "version": "1.0.0",
+  "description": "Jest unit testing assignment",
+  "main": "module.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "jest": "^30.3.0"
+  }
+}

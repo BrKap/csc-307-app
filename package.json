@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev:backend": "npm run dev --workspace=express-backend",
-    "dev:frontend": "npm run dev --workspace=react-frontend"
+    "dev:frontend": "npm run dev --workspace=react-frontend",
+    "test:unit": "npm test --workspace=jest-unit-testing"
   },
   "author": "",
   "license": "ISC",
